@@ -1,0 +1,283 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "SPORTS",
+    "collectionId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+    "dateExported": "2024-08-29T07:51:45.501Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "61a09bbe-9dee-4dfb-a624-bc9ec0e7ba43",
+            "name": "Fields",
+            "containerId": "",
+            "created": "2024-08-25T19:36:30.317Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "b433b96c-6d54-43c3-b9ca-6afa25d7d350",
+            "name": "Auth",
+            "containerId": "",
+            "created": "2024-08-25T20:21:58.441Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "18210c5e-67b3-41a6-a828-a1906650b73b",
+            "name": "Reservations",
+            "containerId": "",
+            "created": "2024-08-28T05:15:18.819Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "68f21c21-4ba1-42b5-99dc-91f9daab5bfb",
+            "name": "Vercel",
+            "containerId": "",
+            "created": "2024-08-29T07:50:54.599Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "076aa087-8c2a-4628-8e8f-a72f0c4d6b28",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "b433b96c-6d54-43c3-b9ca-6afa25d7d350",
+            "name": "register",
+            "url": "https://sportsfieldmanager.vercel.app/sportsFieldManager/v1/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-22T22:55:25.116Z",
+            "modified": "2024-08-29T07:33:56.543Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Josue"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Noj"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jnoj8"
+                    },
+                    {
+                        "name": "email",
+                        "value": "jnoj8@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "profilePicture",
+                        "value": "c:\\Users\\JoseMario\\Pictures\\lingote de hierro.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "696a3e5a-3e4e-49f2-84bb-e29c438db0fa",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "68f21c21-4ba1-42b5-99dc-91f9daab5bfb",
+            "name": "register",
+            "url": "https://sportsfieldmanager.vercel.app/sportsFieldManager/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-29T07:46:53.050Z",
+            "modified": "2024-08-29T07:50:17.771Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "uquevedo@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "uquevedo"
+                    },
+                    {
+                        "name": "name",
+                        "value": "uliver"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "quevedo"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "profilePicture",
+                        "value": "c:\\Users\\JoseMario\\Pictures\\102APPLE\\IMG_2413.PNG"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "7161483c-d846-4f8a-ace5-c383c79a253a",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "b433b96c-6d54-43c3-b9ca-6afa25d7d350",
+            "name": "login",
+            "url": "/auth/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-08-23T23:37:15.344Z",
+            "modified": "2024-08-29T06:15:21.601Z",
+            "headers": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "jnoj6@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    },
+                    {
+                        "name": "username",
+                        "value": "jnoj6",
+                        "isDisabled": true
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "a82bd02c-deb4-408f-9de0-1e57173df059",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "61a09bbe-9dee-4dfb-a624-bc9ec0e7ba43",
+            "name": "addField",
+            "url": "/field/addField",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-08-25T19:36:40.537Z",
+            "modified": "2024-08-29T04:16:25.886Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "fieldName",
+                        "value": "Hola2"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "photo",
+                        "value": "c:\\Users\\JoseMario\\Pictures\\Art_Oficial_de_un_Huevo_de_Yoshi_en_New_Super_Mario_Bros._U.png"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "991250e8-2aa2-42a0-bae2-e8de42dd6ef8",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "61a09bbe-9dee-4dfb-a624-bc9ec0e7ba43",
+            "name": "getField",
+            "url": "/field/getFields",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-08-25T20:21:16.141Z",
+            "modified": "2024-08-28T05:18:31.274Z",
+            "headers": []
+        },
+        {
+            "_id": "f20ea1e8-bc12-4a66-b1b2-77bb1fb0183e",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "18210c5e-67b3-41a6-a828-a1906650b73b",
+            "name": "addReservation",
+            "url": "/reservation/addReservation",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-08-28T05:15:35.227Z",
+            "modified": "2024-08-29T06:02:28.606Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM4ZDkwMDNmYjBlOTg2ZjZjN2RiZTciLCJlbWFpbCI6Impub2pAZ21haWwuY29tIiwiaWF0IjoxNzI0OTA5MjcyLCJleHAiOjE3MjQ5MjAwNzJ9.sz0UZkURCAQ2EnQedd-2kKwD8yJWd9GekdnH2gRuL6w"
+                }
+            ],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "startTime",
+                        "value": "2024/08/21 10:00"
+                    },
+                    {
+                        "name": "endTime",
+                        "value": "2024/08/21 11:00"
+                    },
+                    {
+                        "name": "fieldId",
+                        "value": "66d00edfe3ee945449c7071b"
+                    },
+                    {
+                        "name": "uid",
+                        "value": "66c8d9003fb0e986f6c7dbe7"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "payment",
+                        "value": "c:\\Users\\JoseMario\\Pictures\\6ffef1a0e474ef07bbc2a6456a194dbf.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "741e839f-8540-44ed-9cfd-16ffe369ae4c",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "18210c5e-67b3-41a6-a828-a1906650b73b",
+            "name": "getReservation",
+            "url": "/reservation/myReservations",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-08-28T05:15:54.238Z",
+            "modified": "2024-08-29T06:15:39.020Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM5MTFlMDA2NDYwM2I2YWRlMjlhZmUiLCJlbWFpbCI6Impub2o2QGdtYWlsLmNvbSIsImlhdCI6MTcyNDkxMjEyMSwiZXhwIjoxNzI0OTIyOTIxfQ.Lc2vkheZstaz0mngfAQf7BlPGPUXPtle6DuSIkp_Zy0"
+                }
+            ]
+        },
+        {
+            "_id": "afc138a2-ea88-4353-bb23-8bea0fa013df",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "18210c5e-67b3-41a6-a828-a1906650b73b",
+            "name": "addReservation",
+            "url": "/reservation/addReservation",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-08-29T05:11:56.220Z",
+            "modified": "2024-08-29T05:12:30.037Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM5MTA2ZTVmM2EwNzI1MzNkYzA1YmMiLCJlbWFpbCI6Impub2o1QGdtYWlsLmNvbSIsImlhdCI6MTcyNDkwNDQ3OSwiZXhwIjoxNzI0OTE1Mjc5fQ.h8iU6_YPCF3hFLmrAvKCm6LpQ8rLzM0T9JoRiWKWjJc"
+                }
+            ]
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656/sportsFieldManager/v1"
+        }
+    },
+    "ref": "LW6AXjq9uiy6fpRE47_iPvCQWloFEhcGwIa4FVRstm0asLYTR8wPDml8AqoZ1RgmNdS2xFH_htPqp_bQbQ-CZw"
+}

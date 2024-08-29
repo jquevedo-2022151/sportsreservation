@@ -6,10 +6,6 @@ import { config } from "dotenv"
 
 config()
 
-console.log("Cloud Name:", process.env.CLOUD_NAME);
-console.log("API Key:", process.env.API_KEY);
-console.log("API Secret:", process.env.API_SECRET);
-
 cloudinary.v2.config({
     cloud_name: process.env.CLOUD_NAME,
     api_key: process.env.API_KEY,

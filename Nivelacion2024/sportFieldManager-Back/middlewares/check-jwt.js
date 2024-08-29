@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken'
 
 export const validateJwt = async (req, res, next) => {
     console.log("validate", req)
-    let secretKey = '@LlaveSecreta@'
+    let secretKey = process.env.SECRET_KEY
     let { authorization } = req.headers
 
     if(!authorization) return res.status(401).send({ message: 'Acceso no autorizado'})

@@ -1,5 +1,6 @@
 import { check } from "express-validator"
 import { validationResult } from "express-validator"
+import { validateReservationData } from "../utils/db-validators.js";
 
 export const validateInput = (req, res, next) => {
     const errors = validationResult(req);
@@ -26,10 +27,20 @@ export const addFieldValidator = [
     validateInput
 ]
 
-export const addReservation = [
-    check("startTime", "La hora de inicio es obligatoria").not().isEmpty(),
-    check("endTime", "La hora de finalización es obligatoria").not().isEmpty(),
-    check("fieldId", "Es necesario que seleccione una cancha").not().isEmpty(),
-    check("uid", "No se puede reservar una cancha si no está logueado").not().isEmpty(),
+/*export const addReservation = [
+    check('startTime', "La hora de inicio es obligatoria").not().isEmpty(),
+    check('endTime', "La hora de finalización es obligatoria").not().isEmpty(),
+    check('fieldId', "Es necesario que seleccione una cancha").not().isEmpty(),
+    check('uid', "No se puede reservar una cancha si no está logueado").not().isEmpty(),
     validateInput
-];
+
+];*/
+
+export const addReservation = [
+    check('startTime', 'La hora de inicio es obligatoria').not().isEmpty(),
+    check('endTime', 'La hora de finalización es obligatoria').not().isEmpty(),
+    check('fieldId', 'Es necesario que seleccione una cancha').not().isEmpty(),
+    check('uid', 'No se puede reservar una cancha si no está logueado').not().isEmpty(),
+    validateInput,
+    validateReservationData,
+]
