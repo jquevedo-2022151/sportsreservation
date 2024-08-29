@@ -2,7 +2,7 @@
     "clientName": "Thunder Client",
     "collectionName": "SPORTS",
     "collectionId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
-    "dateExported": "2024-08-29T01:31:03.653Z",
+    "dateExported": "2024-08-29T07:51:45.501Z",
     "version": "1.2",
     "folders": [
         {
@@ -25,57 +25,26 @@
             "containerId": "",
             "created": "2024-08-28T05:15:18.819Z",
             "sortNum": 30000
+        },
+        {
+            "_id": "68f21c21-4ba1-42b5-99dc-91f9daab5bfb",
+            "name": "Vercel",
+            "containerId": "",
+            "created": "2024-08-29T07:50:54.599Z",
+            "sortNum": 40000
         }
     ],
     "requests": [
-        {
-            "_id": "94f45321-80c9-41a0-a3cb-133e6da07e23",
-            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
-            "containerId": "",
-            "name": "register",
-            "url": "https://sportsfieldmanager.vercel.app/sportsFieldManager/v1/register",
-            "method": "POST",
-            "sortNum": 10000,
-            "created": "2024-08-22T00:15:04.537Z",
-            "modified": "2024-08-25T19:48:58.638Z",
-            "headers": [],
-            "body": {
-                "type": "formdata",
-                "raw": "",
-                "form": [
-                    {
-                        "name": "email",
-                        "value": "jquevedo@gmail.com"
-                    },
-                    {
-                        "name": "username",
-                        "value": "jquevedo"
-                    },
-                    {
-                        "name": "name",
-                        "value": "jose"
-                    },
-                    {
-                        "name": "surname",
-                        "value": "quevedo"
-                    },
-                    {
-                        "name": "password",
-                        "value": "123456"
-                    }
-                ]
-            }
-        },
         {
             "_id": "076aa087-8c2a-4628-8e8f-a72f0c4d6b28",
             "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
             "containerId": "b433b96c-6d54-43c3-b9ca-6afa25d7d350",
             "name": "register",
-            "url": "/auth/register",
+            "url": "https://sportsfieldmanager.vercel.app/sportsFieldManager/v1/register",
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-08-22T22:55:25.116Z",
-            "modified": "2024-08-29T00:58:03.533Z",
+            "modified": "2024-08-29T07:33:56.543Z",
             "headers": [],
             "body": {
                 "type": "formdata",
@@ -91,11 +60,11 @@
                     },
                     {
                         "name": "username",
-                        "value": "jnoj7"
+                        "value": "jnoj8"
                     },
                     {
                         "name": "email",
-                        "value": "jnoj7@gmail.com"
+                        "value": "jnoj8@gmail.com"
                     },
                     {
                         "name": "password",
@@ -111,6 +80,50 @@
             }
         },
         {
+            "_id": "696a3e5a-3e4e-49f2-84bb-e29c438db0fa",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "68f21c21-4ba1-42b5-99dc-91f9daab5bfb",
+            "name": "register",
+            "url": "https://sportsfieldmanager.vercel.app/sportsFieldManager/v1/auth/register",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-08-29T07:46:53.050Z",
+            "modified": "2024-08-29T07:50:17.771Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "email",
+                        "value": "uquevedo@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "uquevedo"
+                    },
+                    {
+                        "name": "name",
+                        "value": "uliver"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "quevedo"
+                    },
+                    {
+                        "name": "password",
+                        "value": "123456"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "profilePicture",
+                        "value": "c:\\Users\\JoseMario\\Pictures\\102APPLE\\IMG_2413.PNG"
+                    }
+                ]
+            }
+        },
+        {
             "_id": "7161483c-d846-4f8a-ace5-c383c79a253a",
             "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
             "containerId": "b433b96c-6d54-43c3-b9ca-6afa25d7d350",
@@ -119,7 +132,7 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-08-23T23:37:15.344Z",
-            "modified": "2024-08-29T00:41:36.164Z",
+            "modified": "2024-08-29T06:15:21.601Z",
             "headers": [],
             "body": {
                 "type": "formencoded",
@@ -127,7 +140,7 @@
                 "form": [
                     {
                         "name": "email",
-                        "value": "jnoj5@gmail.com"
+                        "value": "jnoj6@gmail.com"
                     },
                     {
                         "name": "password",
@@ -150,7 +163,7 @@
             "method": "POST",
             "sortNum": 50000,
             "created": "2024-08-25T19:36:40.537Z",
-            "modified": "2024-08-29T00:58:17.877Z",
+            "modified": "2024-08-29T04:16:25.886Z",
             "headers": [],
             "body": {
                 "type": "formdata",
@@ -158,7 +171,7 @@
                 "form": [
                     {
                         "name": "fieldName",
-                        "value": "Hola1"
+                        "value": "Hola2"
                     }
                 ],
                 "files": [
@@ -190,11 +203,11 @@
             "method": "POST",
             "sortNum": 70000,
             "created": "2024-08-28T05:15:35.227Z",
-            "modified": "2024-08-29T00:47:22.019Z",
+            "modified": "2024-08-29T06:02:28.606Z",
             "headers": [
                 {
                     "name": "Authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM5MTA2ZTVmM2EwNzI1MzNkYzA1YmMiLCJlbWFpbCI6Impub2o1QGdtYWlsLmNvbSIsImlhdCI6MTcyNDg5MjA5NiwiZXhwIjoxNzI0OTAyODk2fQ.YmB6JXCXZuqRKAWoIHOBy_xgfkdgZZnsIqcutc4Evk4"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM4ZDkwMDNmYjBlOTg2ZjZjN2RiZTciLCJlbWFpbCI6Impub2pAZ21haWwuY29tIiwiaWF0IjoxNzI0OTA5MjcyLCJleHAiOjE3MjQ5MjAwNzJ9.sz0UZkURCAQ2EnQedd-2kKwD8yJWd9GekdnH2gRuL6w"
                 }
             ],
             "body": {
@@ -202,20 +215,20 @@
                 "raw": "",
                 "form": [
                     {
-                        "name": "fieldId",
-                        "value": "66cb9026e1702bf6002ff7f2"
-                    },
-                    {
-                        "name": "uid",
-                        "value": "66c911e0064603b6ade29afe"
-                    },
-                    {
                         "name": "startTime",
                         "value": "2024/08/21 10:00"
                     },
                     {
                         "name": "endTime",
                         "value": "2024/08/21 11:00"
+                    },
+                    {
+                        "name": "fieldId",
+                        "value": "66d00edfe3ee945449c7071b"
+                    },
+                    {
+                        "name": "uid",
+                        "value": "66c8d9003fb0e986f6c7dbe7"
                     }
                 ],
                 "files": [
@@ -231,12 +244,34 @@
             "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
             "containerId": "18210c5e-67b3-41a6-a828-a1906650b73b",
             "name": "getReservation",
-            "url": "",
+            "url": "/reservation/myReservations",
             "method": "GET",
             "sortNum": 80000,
             "created": "2024-08-28T05:15:54.238Z",
-            "modified": "2024-08-28T05:15:54.238Z",
-            "headers": []
+            "modified": "2024-08-29T06:15:39.020Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM5MTFlMDA2NDYwM2I2YWRlMjlhZmUiLCJlbWFpbCI6Impub2o2QGdtYWlsLmNvbSIsImlhdCI6MTcyNDkxMjEyMSwiZXhwIjoxNzI0OTIyOTIxfQ.Lc2vkheZstaz0mngfAQf7BlPGPUXPtle6DuSIkp_Zy0"
+                }
+            ]
+        },
+        {
+            "_id": "afc138a2-ea88-4353-bb23-8bea0fa013df",
+            "colId": "69f06de0-3e49-4042-98c3-8ad5bee4f347",
+            "containerId": "18210c5e-67b3-41a6-a828-a1906650b73b",
+            "name": "addReservation",
+            "url": "/reservation/addReservation",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-08-29T05:11:56.220Z",
+            "modified": "2024-08-29T05:12:30.037Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NmM5MTA2ZTVmM2EwNzI1MzNkYzA1YmMiLCJlbWFpbCI6Impub2o1QGdtYWlsLmNvbSIsImlhdCI6MTcyNDkwNDQ3OSwiZXhwIjoxNzI0OTE1Mjc5fQ.h8iU6_YPCF3hFLmrAvKCm6LpQ8rLzM0T9JoRiWKWjJc"
+                }
+            ]
         }
     ],
     "settings": {
@@ -244,5 +279,5 @@
             "baseUrl": "localhost:2656/sportsFieldManager/v1"
         }
     },
-    "ref": "LW6AXjq9uiy6fpRE47_iPhIsv9k5WlRvwgXFiEY3HXDgydWMxuOliEsGyvbZn3ppS199SsGQLLOe5IaCjMlC1A"
+    "ref": "LW6AXjq9uiy6fpRE47_iPvCQWloFEhcGwIa4FVRstm0asLYTR8wPDml8AqoZ1RgmNdS2xFH_htPqp_bQbQ-CZw"
 }
