@@ -1,0 +1,20 @@
+import jwt from 'jsonwebtoken'
+
+
+
+
+export const validateJwt = async (req, res, next) => {
+    console.log("validate", req)
+    let secretKey = '@LlaveSecreta@'
+    let { authorization } = req.headers
+
+    if(!authorization) return res.status(401).send({ message: 'Acceso no autorizado'})
+    try{
+        const token = await jwt.verify(authorization, secretKey)
+        req.uid = token.uid
+    }catch(err){
+        console.error(err)
+        return res.status(403).send({message: 'Token invalido'})
+    }
+    return next()
+}
